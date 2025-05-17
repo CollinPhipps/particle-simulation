@@ -5,9 +5,15 @@ A simple particle simulation written in C++ using [SFML 3.0](https://github.com/
 ## Features
 
 - Verlet integration for motion
-- Rectangular boundary constraints
+- Circular boundary constraints
 - Spatial hashing grid for optimized collision detection
 - SFML rendering with dynamic particles
 - Mouse interaction allowing for induced forces
 
-![Screenshot](image.png)
+## Building
+
+```bash
+git clone --recurse-submodules https://github.com/YOUR_USERNAME/particle-simulation.git
+cd particle-simulation
+cmake ..
+```
