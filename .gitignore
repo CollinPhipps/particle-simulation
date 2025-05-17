@@ -1,0 +1,47 @@
+# Build directory
+/build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln
+*.vcxproj*
+*.ncb
+*.log
+
+# Mac/Linux
+.DS_Store
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.ipch
+*.aps
+
+# IDEs
+.vscode/
+.idea/
+
+# SFML build artifacts if built as submodule
+/external/SFML/build/
+/external/SFML/lib/
+/external/SFML/bin/
+
+# Misc
+*.log
+*.out
+*.tmp
